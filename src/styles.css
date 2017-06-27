@@ -4,4 +4,10 @@ body {
     margin-right: 10px;
     margin-left: 10px;
     background-color: #333;
+    font-size: 16px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
 }
