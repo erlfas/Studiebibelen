@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BibelPanelComponent } from './bibel-panel.component';
+import { TestDropdownComponent } from './test-dropdown.component';
 
-describe('BibelPanelComponent', () => {
-  let component: BibelPanelComponent;
-  let fixture: ComponentFixture<BibelPanelComponent>;
+describe('TestDropdownComponent', () => {
+  let component: TestDropdownComponent;
+  let fixture: ComponentFixture<TestDropdownComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BibelPanelComponent ]
+      declarations: [ TestDropdownComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BibelPanelComponent);
+    fixture = TestBed.createComponent(TestDropdownComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
