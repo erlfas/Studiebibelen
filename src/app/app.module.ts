@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { MainBoardComponent } from './components/main-board/main-board.component';
 import { VelgKommentarComponent } from './components/velg-kommentar/velg-kommentar.component';
 import { VelgBibeltekstComponent } from './components/velg-bibeltekst/velg-bibeltekst.component';
-import { VelgBibelbokComponent } from './components/velg-bibelbok/velg-bibelbok.component';
 import { VelgKapittelComponent } from './components/velg-kapittel/velg-kapittel.component';
 import { VelgVersComponent } from './components/velg-vers/velg-vers.component';
 
@@ -19,7 +18,6 @@ import { serviceInjectables } from './services/service.injectables';
     MainBoardComponent,
     VelgKommentarComponent,
     VelgBibeltekstComponent,
-    VelgBibelbokComponent,
     VelgKapittelComponent,
     VelgVersComponent
   ],
