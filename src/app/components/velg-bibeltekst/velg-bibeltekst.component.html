@@ -2,8 +2,7 @@
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Bok<span class="caret"></span>
     </button>
-    <ul class="dropdown-menu">
-        <li><a href="#">Av teologer</a></li>
-        <li><a href="#">Av brukere</a></li>
+    <ul class="dropdown-menu" *ngFor="let m of kapittelMaps">
+        <li><a href="#">{{ m.bok }}</a></li>
     </ul>
 </div>
